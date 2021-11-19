@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input maker and deleter</title>
+  <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="h-100">
+    <div id="video-link-input-container" class="container d-flex flex-column justify-content-center align-content-center">
+      <div class="col-md-8 offset-2" id="input-container">
+          <div class="form-group">
+              <label>Input name</label>
+              <input type="text"
+                    class="form-control"
+                    name="videos[0]">
+          </div>
+      </div>
+      <div class="col-md-8 offset-2 d-flex flex-row" id="modifiers-container">
+          <div class="form-group" id="plus-button-container">
+              <i id="plus-input-button" class="fas fa-plus-circle text-success fa-lg mr-3"></i>
+          </div>
+      </div>
+      
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
